@@ -1,0 +1,12 @@
+app-header {
+    --bg-color: #E5E5E5;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-column-gap: 10rem;
+    align-items: center;
+    
+    padding: 2rem 10rem;
+
+    background-color: var(--bg-color);
+}
