@@ -5,6 +5,8 @@
     --search-icon--padding: 1rem .5rem;
 
     height: var(--height);
+    min-width: 50rem;
+
     display: flex;
     justify-items: center;
 }

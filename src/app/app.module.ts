@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { ProfileInfoComponent } from './profile-info/profile-info.component';
+import { LeftPanelComponent } from './left-panel/left-panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SearchComponent,
-    ProfileInfoComponent
+    ProfileInfoComponent,
+    LeftPanelComponent
   ],
   imports: [
     BrowserModule
